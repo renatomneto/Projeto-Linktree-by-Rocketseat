@@ -36,7 +36,7 @@ body {
   /* short hand ? (atalho) */
   /* background: color image repeat position/size */
   background: var(--bg-url) no-repeat top center/cover;
-  height: 100vh;
+  height: 95vh; /* barra de rolagem aparece com 100*/
 }
 
 /* aplica a todos do body */
@@ -48,12 +48,12 @@ body * {
 #container {
   width: 100%;
   max-width: 588px;
-  /* borda para visualizar o espaço a ser inserido os elementos 
-  height: 712px;
+  /* borda para visualizar o espaço a ser inserido os elementos  */
+  /* height: 712px;
   border: 1px solid red; */
   margin: auto; /*alinha ao meio (regra css nao aplica em cima e embaixo */
 
-  margin-top: 56px;
+  margin-top: 24px;
 
   padding: 0 24px;
 }
@@ -83,8 +83,6 @@ body * {
   position: relative;
   width: 64px;
   margin: 24px auto 0;
-
-  padding: 4xp;
 }
 
 .dark #switch button {
@@ -184,7 +182,7 @@ ul li a:hover {
 }
 
 footer {
-  padding: 24px 0;
+  padding: 0;
   text-align: center;
   font-size: 14px;
 }
